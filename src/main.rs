@@ -1,9 +1,11 @@
 mod rustpbyractice;
 mod hackerrank;
-mod homework;
 
-use crate::hackerrank::task03::staircase;
+use crate::hackerrank::task04::grading_students;
 
 fn main() {
-    println!("{}", staircase(6));
+    let grades = vec![73, 67, 38, 33];
+    let result = grading_students(grades);
+
+    println!("{:?}", result);
 }

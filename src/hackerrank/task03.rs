@@ -1,4 +1,4 @@
-
+#[allow(dead_code)]
 pub fn staircase(n: i32) -> String {
     let mut result = String::new();
 
