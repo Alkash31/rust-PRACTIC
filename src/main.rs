@@ -1,8 +1,9 @@
 mod rustpbyractice;
 mod hackerrank;
 mod homework;
-mod practice;
+
+use crate::hackerrank::task03::staircase;
 
 fn main() {
-    println!("We learn Rust!");
+    println!("{}", staircase(6));
 }
