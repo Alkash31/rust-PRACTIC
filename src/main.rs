@@ -1,11 +1,11 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task04::grading_students;
+use crate::hackerrank::task05::count_apples_and_oranges;
 
 fn main() {
-    let grades = vec![73, 67, 38, 33];
-    let result = grading_students(grades);
+    let result = count_apples_and_oranges(7, 11, 5, 15, &[-2, 2, 1], &[5, -6]);
 
-    println!("{:?}", result);
+    println!("Apples: {}", result.0);
+    println!("Oranges: {}", result.1);
 }
