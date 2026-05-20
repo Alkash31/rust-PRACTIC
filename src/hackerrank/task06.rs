@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn kangaroo(x1: i32, v1: i32, x2: i32, v2: i32) -> String {
     if x1 == x2 {
         return "YES".to_string();

@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn get_total_x(a: &[i32], b: &[i32]) -> i32 {
     let start = *a.iter().max().unwrap();
     let end = *b.iter().min().unwrap();

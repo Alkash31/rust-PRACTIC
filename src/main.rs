@@ -1,11 +1,10 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task05::count_apples_and_oranges;
+use crate::hackerrank::task08::breaking_records;
 
 fn main() {
-    let result = count_apples_and_oranges(7, 11, 5, 15, &[-2, 2, 1], &[5, -6]);
+    let result = breaking_records(&[10, 5, 20, 20, 4, 5, 2, 25, 1]);
 
-    println!("Apples: {}", result.0);
-    println!("Oranges: {}", result.1);
+    println!("{:?}", result);
 }

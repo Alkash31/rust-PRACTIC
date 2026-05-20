@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn grading_students(grades: Vec<i32>) -> Vec<i32> {
     grades
         .into_iter()
