@@ -1,10 +1,10 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task08::breaking_records;
+use crate::hackerrank::task09::migratory_birds;
 
 fn main() {
-    let result = breaking_records(&[10, 5, 20, 20, 4, 5, 2, 25, 1]);
+    let result = migratory_birds(&[1, 4, 4, 4, 5, 3]);
 
-    println!("{:?}", result);
+    println!("{}", result);
 }
