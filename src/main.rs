@@ -1,10 +1,10 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task09::migratory_birds;
+use crate::hackerrank::task10::sock_merchant;
 
 fn main() {
-    let result = migratory_birds(&[1, 4, 4, 4, 5, 3]);
+    let result = sock_merchant(9, &[10, 20, 20, 10, 10, 30, 50, 10, 20]);
 
     println!("{}", result);
 }
