@@ -1,10 +1,10 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task14::bonappetit;
+use crate::hackerrank::task15::pagecount;
 
 fn main() {
-    let result = bonappetit(&[3, 10, 2, 9], 1, 12);
+    let result = pagecount(6, 2);
 
     println!("{}", result);
 }
