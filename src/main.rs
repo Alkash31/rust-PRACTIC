@@ -1,16 +1,10 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task11::diagonaldifference;
+use crate::hackerrank::task12::birthdaycakecandles;
 
 fn main() {
-    let matrix = vec![
-        vec![11, 2, 4],
-        vec![4, 5, 6],
-        vec![10, 8, -12],
-    ];
-
-    let result = diagonaldifference(&matrix);
+    let result = birthdaycakecandles(&[3, 2, 1, 3]);
 
     println!("{}", result);
 }
