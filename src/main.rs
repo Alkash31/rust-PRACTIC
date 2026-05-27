@@ -1,10 +1,10 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task13::divisiblesumpairs;
+use crate::hackerrank::task14::bonappetit;
 
 fn main() {
-    let result = divisiblesumpairs(6, 3, &[1, 3, 2, 6, 1, 2]);
+    let result = bonappetit(&[3, 10, 2, 9], 1, 12);
 
     println!("{}", result);
 }
