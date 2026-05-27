@@ -1,10 +1,10 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task12::birthdaycakecandles;
+use crate::hackerrank::task13::divisiblesumpairs;
 
 fn main() {
-    let result = birthdaycakecandles(&[3, 2, 1, 3]);
+    let result = divisiblesumpairs(6, 3, &[1, 3, 2, 6, 1, 2]);
 
     println!("{}", result);
 }
