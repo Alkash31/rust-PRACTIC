@@ -1,10 +1,16 @@
 mod rustpbyractice;
 mod hackerrank;
 
-use crate::hackerrank::task10::sock_merchant;
+use crate::hackerrank::task11::diagonaldifference;
 
 fn main() {
-    let result = sock_merchant(9, &[10, 20, 20, 10, 10, 30, 50, 10, 20]);
+    let matrix = vec![
+        vec![11, 2, 4],
+        vec![4, 5, 6],
+        vec![10, 8, -12],
+    ];
+
+    let result = diagonaldifference(&matrix);
 
     println!("{}", result);
 }
